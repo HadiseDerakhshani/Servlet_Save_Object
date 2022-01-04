@@ -28,7 +28,6 @@ public class Save extends HttpServlet {
             session.getTransaction().commit();
             session.close();
 
-
             result.println("<html><body><h1 style=\"text-align:center;\"> Successfully Inserted"
                     + "</h1></body></html>");
         } catch (Exception e) {
